@@ -51,8 +51,6 @@ DB_COLS = (
 ('phone', 'TEXT'),
 ('email', 'TEXT'),
 ('access_type', 'TEXT'),
-('connect_local', 'INTEGER'),
-('connect_internet', 'INTEGER'),
 ('bandwidth', 'REAL'),
 ('share_part', 'REAL'),
 ('floor', 'INTEGER'),
@@ -114,9 +112,15 @@ def save_to_db(db, dic):
     tosave['date'] = utils.formatdate()
     return db.execute("""
 INSERT INTO {}
+<<<<<<< HEAD
 (name, contrib_type, latitude, longitude, phone, email, access_type, connect_local, connect_internet, bandwidth, share_part, floor, floor_total, orientations, roof, comment,
 privacy_name, privacy_email, privacy_place_details, privacy_coordinates, privacy_comment, date)
 VALUES (:name, :contrib_type, :latitude, :longitude, :phone, :email, :access_type, :connect_local, :connect_internet, :bandwidth, :share_part, :floor, :floor_total, :orientations, :roof, :comment,
+=======
+(name, contrib_type, latitude, longitude, phone, email, access_type, bandwidth, share_part, isp, floor, floor_total, orientations, roof, comment,
+privacy_name, privacy_email, privacy_place_details, privacy_coordinates, privacy_comment, date)
+VALUES (:name, :contrib_type, :latitude, :longitude, :phone, :email, :access_type, :bandwidth, :share_part, :isp, :floor, :floor_total, :orientations, :roof, :comment,
+>>>>>>> c70c4b1... Revert "Ask the reason why somebody wants to connect to the network"
         :privacy_name, :privacy_email, :privacy_place_details, :privacy_coordinates, :privacy_comment, :date)
 """.format(TABLE_NAME), tosave)
 
@@ -195,8 +199,6 @@ def submit_wifi_form():
                 'email'        : d.get('email'),
                 'phone'        : d.get('phone'),
                 'access_type'          : d.get('access-type'),
-                'connect_local'        : 'local' in d.getall('connect-type'),
-                'connect_internet'     : 'internet' in d.getall('connect-type'),
                 'bandwidth'            : d.get('bandwidth'),
                 'share_part'           : d.get('share-part'),
                 'floor'                : d.get('floor'),

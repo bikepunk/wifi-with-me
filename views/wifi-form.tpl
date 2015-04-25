@@ -136,21 +136,6 @@ Si vous êtes intéresséEs pour vous connecter au réseau radio, merci de rempl
     </p>
     </div>
 
-    <div id="contrib-type-connect">
-    <h2>Me raccorder au réseau</h2>
-    <h3>J'aimerais pouvoir</h3>
-    <p class="checkbox"><label>
-      <input {{'checked' if data.get('connect-type') == 'local' else ''}}
-      type="checkbox" name="connect-type" value="local"/>
-      Proposer et utiliser des services en local avec les autres utilisateurs du réseau
-    </label></p>
-    <p class="checkbox"><label>
-      <input {{'checked' if data.get('connect-type') == 'internet' else ''}}
-         type="checkbox" name="connect-type" value="internet"/>
-      Avoir un accès à Internet
-    </label></p>
-    </div>
-
     <h2>Ma localisation</h2>
 
     <div class="row">
