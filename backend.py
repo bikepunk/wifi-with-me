@@ -38,7 +38,7 @@ ANGLES = {
      'NE': (22, 67)
 }
 
-TABLE_NAME = 'contribs'
+TABLE_NAME = 'wifi_home'
 DB_FILENAME = join(dirname(__file__), 'db.sqlite3')
 DB = sqlite3.connect(DB_FILENAME)
 
