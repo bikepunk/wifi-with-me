@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="utf-8">
-    <title>FAImaison − contribution à l'expérimentation wifi</title>
+    <title>Réseau radio de tetaneutral.net</title>
 
     <!-- jQuery -->
     <script src="assets/jquery/jquery-1.11.0.min.js" type="text/javascript"></script>
@@ -27,9 +27,9 @@
   <header class="main-header jumbotron">
     <div class="container">
     %if page == 'form':
-    <h1>Réseau wifi expérimental</h1>
+    <h1>Réseau radio de tetaneutral.net</h1>
     %else:
-    <h1><a href="./">Réseau wifi expérimental</a></h1>
+    <h1><a href="./">Réseau radio de tetaneutral.net</a></h1>
     %end
     </div>
   </header>
@@ -41,13 +41,13 @@
   <footer>
     <p>
         Les données personnelles que vous ne rendez pas publiques
-	sont stockées exclusivement chez FAImaison durant un an (sauf demande de votre part)
+	sont stockées exclusivement chez tetaneutral.net durant un an (sauf demande de votre part)
 	et ne seront pas partagées avec d'autres
 	associations, entreprises ou collectivités. Des membres de
-	FAImaison seront toutefois amenés à les étudier : ne
-	fournissez pas de données si vous n'avez pas confiance en FAImaison.
+	tetaneutral.net seront toutefois amenés à les étudier : ne
+	fournissez pas de données si vous n'avez pas confiance en tetaneutral.net.
         <br>
-        <a href="//www.faimaison.net" target="_blank">FAImaison.net</a> -
+        <a href="//tetaneutral.net" target="_blank">tetaneutral.net</a> -
         <a href="./legal">Vos droits d'accès et de rectification de vos données
 	personnelles</a>
     </p>

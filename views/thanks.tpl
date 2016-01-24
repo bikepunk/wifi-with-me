@@ -7,10 +7,8 @@ Votre contribution a bien été enregistrée.
 </p>
 <p>
 Si vous voulez <strong>rester en
-contact</strong> avec FAImaison, nous rencontrer ou vous tenir informé, ça
-se passe sur
-<a href="//www.faimaison.net/pages/contact.html">la page contact</a> de
-l'association.
+contact</strong> avec tetaneutral.net, nous rencontrer ou vous tenir informé, c'est
+<a href="//tetaneutral.net/#Participer">par ici que ça se passe</a>.
 </p>
 
 <p>

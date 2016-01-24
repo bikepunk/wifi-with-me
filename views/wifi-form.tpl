@@ -19,23 +19,33 @@
 
 %else:
     <p>
-L'association <a href="//www.faimaison.net">FAImaison</a> expérimente à
-grande échelle (Nantes et environs) la création d'un réseau sans-fil à
-longue portée à des fins, entre autres, de <em>partage</em> et
-<em>fourniture</em> d'<strong>accès à internet</strong>.
+Pour connecter ses adhérentEs à internet, <a href="//tetaneutral.net">tetaneutral.net</a> opère un réseau radio 5GHz sur Toulouse.</br>
+Ces fréquences traversent mal les obstacles ; il faut donc "voir" une antenne pour se connecter au réseau.
+Aussi, plus on a une vue dégagée plus on a de chances de pouvoir se connecter.
     </p>
 
     <p>
-Pour cela, nous recherchons des volontaires, tant pour <strong>partager une
-partie de leur connexion</strong> que pour participer au réseau (accès à
-internet, partage local…).
-      </p>
+Le réseau radio "sors" vers l'internet :</br>
+-soit par notre "coeur de réseau" (à <a href="http://mixart-myrys.org/">Mixart Myrys</a>, connecté en fibre optique)</br>
+-soit par des lignes fibres mises à dispositions par des adhérentEs,
+ sur lesquelles ont fait des tunnels pour arriver à notre "coeur de réseau".
+    </p>
 
-      <p>
-Renseigner ce formulaire nous permet de définir quelles <strong>zones
-d'expérimentations</strong> (avec une grande densité de volontaires)
-pourraient être intéressantes.
-      </p>
+    <p>
+<strong>Tarifs :</strong> </br>
+Le principe de tarification appliqué est celui de la <strong>participation libre et nécessaire</strong>. L'association donne des tarifs indicatifs. Les membres contribuent selon leurs moyens et leur conscience, sans justificatif.</br>
+Adhésion à l'association : 20€/an</br>
+Connexion au réseau radio : 20€/mois</br>
+tetaneutral.net prête à ses adhérentEs tout le matériel nécessaire à la connexion (antennes, câbles, routeurs...).
+    </p>
+
+    <p>
+tetaneutral.net est opéré par des bénévoles uniquement. Il n'y a donc <strong>aucune garantie de service</strong> (cf. <a href="https://chiliproject.tetaneutral.net/projects/tetaneutral/wiki/RI">le règlement intérieur de l'association</a>).
+    </p>
+
+    <p>
+Si vous êtes intéresséEs pour vous connecter au réseau radio, merci de remplir le formulaire ci-dessous.
+    </p>
 %end
     </div>
   </header>
@@ -79,7 +89,7 @@ pourraient être intéressantes.
       <label>
       <input type="radio" name="contrib-type" value="connect"
              {{'checked' if data.get('contrib-type') == 'connect' else ''}}/>
-      Me raccorder au réseau expérimental
+      Me raccorder au réseau de tetaneutral.net
       </label>
     </p>
 

@@ -12,7 +12,7 @@ href="https://www.faimaison.net/files/cnil-faimaison-1819684-withwithme.pdf">181
 <p>
 Conformément à la loi « informatique et libertés » du 6 janvier 1978 modifiée en
 2004, vous bénéficiez d’un droit d’accès et de rectification aux informations
-qui vous concernent, que vous pouvez exercer en vous adressant à bureau (at) faimaison.net.
+qui vous concernent, que vous pouvez exercer en vous adressant à question (at) tetaneutral.net.
 </p>
 
 <p>
@@ -24,5 +24,5 @@ données vous concernant.
 Les données rendues publiques sont diffusées sous licence <a
 href="http://opendatacommons.org/licenses/by/1.0/">Open Data Commons Attribution version
 1.0</a> (ODC-BY 1.0) : elles sont librement réutilisables à la seule
-condition d'en attribuer la paternité à FAImaison.
+condition d'en attribuer la paternité à tetaneutral.net.
 </p>
