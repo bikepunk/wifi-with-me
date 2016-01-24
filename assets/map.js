@@ -2,8 +2,8 @@ $( document ).ready(function() {
 
     // Defaults
     defaults = {
-        lat: 47.218371,
-        lng: -1.553621,
+        lat: 43.604652,
+        lng: 1.444209,
         zoom: 13,
     }
 
