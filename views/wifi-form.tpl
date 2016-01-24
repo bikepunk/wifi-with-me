@@ -160,7 +160,7 @@ Si vous êtes intéresséEs pour vous connecter au réseau radio, merci de rempl
       <div class="form-group col-sm-6">
         <div class="form-group form-group-lg form-inline">
           <input type="text" name="search"
-                 id="search" placeholder="allées jean-jaures, toulouse" class="form-control" />
+                 id="search" placeholder="rue lassale, toulouse" class="form-control" />
           <span id="search-btn" class="btn btn-default btn-lg" data-loading-text="...">Recherche</span>
 
           <div id="search-results" class=""></div>

@@ -4,7 +4,7 @@ $( document ).ready(function() {
     defaults = {
         lat: ($('#latitude').val()) ? $('#latitude').val() : 43.604652,
         lng: ($('#longitude').val()) ? $('#longitude').val() : 1.444209,
-        zoom: 13,
+        zoom: 12,
     }
 
     // Create map
