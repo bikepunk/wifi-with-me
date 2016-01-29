@@ -112,15 +112,9 @@ def save_to_db(db, dic):
     tosave['date'] = utils.formatdate()
     return db.execute("""
 INSERT INTO {}
-<<<<<<< HEAD
-(name, contrib_type, latitude, longitude, phone, email, access_type, connect_local, connect_internet, bandwidth, share_part, floor, floor_total, orientations, roof, comment,
-privacy_name, privacy_email, privacy_place_details, privacy_coordinates, privacy_comment, date)
-VALUES (:name, :contrib_type, :latitude, :longitude, :phone, :email, :access_type, :connect_local, :connect_internet, :bandwidth, :share_part, :floor, :floor_total, :orientations, :roof, :comment,
-=======
 (name, contrib_type, latitude, longitude, phone, email, access_type, bandwidth, share_part, floor, floor_total, orientations, roof, comment,
 privacy_name, privacy_email, privacy_place_details, privacy_coordinates, privacy_comment, date)
 VALUES (:name, :contrib_type, :latitude, :longitude, :phone, :email, :access_type, :bandwidth, :share_part, :floor, :floor_total, :orientations, :roof, :comment,
->>>>>>> c70c4b1... Revert "Ask the reason why somebody wants to connect to the network"
         :privacy_name, :privacy_email, :privacy_place_details, :privacy_coordinates, :privacy_comment, :date)
 """.format(TABLE_NAME), tosave)
 
