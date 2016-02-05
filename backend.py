@@ -39,7 +39,7 @@ ANGLES = {
 }
 
 TABLE_NAME = 'wifi_home'
-DB_FILENAME = join(dirname(__file__), 'db.sqlite3')
+DB_FILENAME = os.environ.get("DATABASE", join(dirname(__file__), 'db.sqlite3'))
 DB = sqlite3.connect(DB_FILENAME)
 
 DB_COLS = (
