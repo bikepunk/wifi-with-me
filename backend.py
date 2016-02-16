@@ -1,17 +1,17 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import cgi
-import os
-import sys
-import sqlite3
-import urlparse
-import datetime
-import json
-from email import utils
-from os.path import join, dirname, exists
-
 import bottle
-from bottle import route, run, static_file, request, template, FormsDict, redirect, response, Bottle
+import cgi
+import json
+import os
+import sqlite3
+import sys
+import urlparse
+from email import utils
+from os.path import dirname, exists, join
+from bottle import Bottle, FormsDict, redirect, request, response, route, run, static_file, template
+
+import wifiutils
 
 URL_PREFIX = os.environ.get('URL_PREFIX', '')
 
@@ -211,6 +211,9 @@ def submit_wifi_form():
                 'privacy_comment'      : 'comment' in d.getall('privacy'),
         })
         DB.commit()
+
+        # Send a mail, with config in settings.ini. Fail silently.
+        wifiutils.send_mail(d)
 
         # Rebuild GeoJSON
         build_geojson()

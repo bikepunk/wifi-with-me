@@ -53,6 +53,24 @@ Drop the database
 
 What else ?
 
+Email notifications
+===================
+
+Complete a `settings.ini` at the root folder. It looks like this:
+
+```ini
+[email]
+from = from@rst.org
+to = you@you.org
+smtp_host = mail.server.org
+smtp_user = email to login to the smtp host
+smtp_password = password of the host
+```
+Note that there are no brackets.
+
+You will now receive an email when an user fills the form.
+
+
 Customizing appearance
 ======================
 
