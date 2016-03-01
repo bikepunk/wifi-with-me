@@ -35,9 +35,10 @@ def send_mail(data):
         HOST = config.get('smtp_host')
 
         infos = dedent("""\
-        - son mail: {}\n
-        - son tel: {}\n
-        """.format(data.get('email'), data.get('phone')))
+        - son mail : {}\n
+        - son tel : {}\n
+	- habite au {} étage sur {}\n
+        """.format(data.get('email'), data.get('phone'),data.get('floor'), data.get('floor_total')))
 
         BODY = dedent("""\
 From: <{}>
