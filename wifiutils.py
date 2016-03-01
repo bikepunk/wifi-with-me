@@ -38,7 +38,8 @@ def send_mail(data):
         - son mail : {}\n
         - son tel : {}\n
 	- habite au {} étage sur {}\n
-        """.format(data.get('email'), data.get('phone'),data.get('floor'), data.get('floor_total')))
+	- commentaire {}\n
+        """.format(data.get('email'), data.get('phone'),data.get('floor'), data.get('floor_total'), data.get('comment')))
 
         BODY = dedent("""\
 From: <{}>
