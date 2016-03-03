@@ -27,7 +27,7 @@ Aussi, plus on a une vue dégagée plus on a de chances de pouvoir se connecter.
     <p>
 Le réseau radio "sort" vers l'internet :</br>
 -soit par notre "coeur de réseau" (à <a href="http://mixart-myrys.org/">Mixart Myrys</a>, connecté en fibre optique)</br>
--soit par des lignes fibres mises à dispositions par des adhérentEs,
+-soit par des lignes fibres mises à disposition par des adhérentEs,
  sur lesquelles on fait des tunnels pour arriver à notre "coeur de réseau".
     </p>
 
@@ -203,7 +203,7 @@ Si vous êtes intéresséEs pour vous connecter au réseau radio, merci de rempl
 
     <p class="help-block">
 Les données collectées dans ce formulaire sont accessibles
-au bureau de FAImaison.<br />
+aux bénévoles de tetaneutral.net<br />
 
 Vous pouvez cocher ci-dessous celles que vous voulez bien voir <a
 href="./legal">rendues publiques et librement réutilisées</a>.
