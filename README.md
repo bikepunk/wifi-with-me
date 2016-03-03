@@ -65,6 +65,7 @@ to = you@you.org
 smtp_host = mail.server.org
 smtp_user = email to login to the smtp host
 smtp_password = password of the host
+admin_url = web administration url 
 ```
 Note that there are no brackets.
 

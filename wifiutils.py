@@ -33,26 +33,28 @@ def send_mail(data):
         FROM = config.get("from")
         TO = config.get("to")
         HOST = config.get('smtp_host')
+	ADMIN_URL = config.get("admin_url")
 
         infos = dedent("""\
-        - son mail : {}\n
-        - son tel : {}\n
-	- habite au {} étage sur {}\n
-	- commentaire {}\n
+        - son mail : {}<br>
+        - son tel : {}<br>
+	- habite au {}ème étage sur {}<br>
+	- commentaire : {}<br>
         """.format(data.get('email'), data.get('phone'),data.get('floor'), data.get('floor_total'), data.get('comment')))
 
         BODY = dedent("""\
 From: <{}>
 To: <{}>
 MIME-Version: 1.0
-Content-type: text/html
+Content-type: text/html; charset=UTF-8
 Subject: {}
 
-Nouvelle demande de la part de {}.\n
+Nouvelle demande de la part de {}.<br>
 
 {}
 
-        """.format(FROM, TO, SUBJECT, data.get('name'), infos))
+Pour gérer cette demande, tu peux visiter : {}
+        """.format(FROM, TO, SUBJECT, data.get('name'), infos, ADMIN_URL))
         user = config.get('smtp_user')
         password = config.get('smtp_password')
 
