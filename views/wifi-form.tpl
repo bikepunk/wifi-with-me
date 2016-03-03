@@ -25,10 +25,10 @@ Aussi, plus on a une vue dégagée plus on a de chances de pouvoir se connecter.
     </p>
 
     <p>
-Le réseau radio "sors" vers l'internet :</br>
+Le réseau radio "sort" vers l'internet :</br>
 -soit par notre "coeur de réseau" (à <a href="http://mixart-myrys.org/">Mixart Myrys</a>, connecté en fibre optique)</br>
 -soit par des lignes fibres mises à dispositions par des adhérentEs,
- sur lesquelles ont fait des tunnels pour arriver à notre "coeur de réseau".
+ sur lesquelles on fait des tunnels pour arriver à notre "coeur de réseau".
     </p>
 
     <p>
